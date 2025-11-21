@@ -7,7 +7,6 @@ import vue2 from "@vitejs/plugin-vue2";
 export default defineConfig({
   plugins: [
     vue2(),
-    // scriptSetup(),
     legacy({
       targets: ["ie >= 11"],
       additionalLegacyPolyfills: ["regenerator-runtime/runtime"],
